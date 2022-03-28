@@ -35,3 +35,69 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* SITE-HEADER */
+.site-header {
+    background-color: #f1d1ad;
+}
+
+.site-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.site-header-logo {
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.site-header-logo:hover {
+    opacity: 0.8;
+}
+
+.site-header-logo:active {
+    opacity: 0.6;
+}
+
+.site-header-logo-img {
+    width: 235px;
+    height: 24px;
+}
+
+.site-header-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header-item {
+    margin: 0;
+}
+
+.site-header-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.site-header-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.site-header-link:hover {
+    opacity: 0.8;
+}
+
+.site-header-link:active {
+    opacity: 0.6
+}
