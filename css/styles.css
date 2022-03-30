@@ -26,6 +26,19 @@ img {
     height: auto;
 }
 
+.button {
+    display: inline-flex;
+    padding: 16px 24px;
+    background-color: #0a775f;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 18px;
+}
+
 /* CONTAINER */
 .container {
     width: 100%;
@@ -100,4 +113,62 @@ img {
 
 .site-header-link:active {
     opacity: 0.6
+}
+
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-container {
+    background-color: #f1d1ad;
+}
+
+.hero-content {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.hero-title {
+    width: 447px;
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000;
+}
+
+.hero-text {
+    width: 464px;
+    margin: 0;
+    margin-bottom: 34px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.hero-right {
+    margin-right: -24px;
+}
+
+.hero-right-img {
+    width: 710px;
+    height: 696px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    .hero-right {
+        background-image: url(../img/hero-bg@2x.jpg)
+    }
 }
