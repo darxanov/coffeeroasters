@@ -51,7 +51,7 @@ img {
 
 
 /* SITE-HEADER */
-.site-header {
+.site-header-bg {
     background-color: #f1d1ad;
 }
 
@@ -121,10 +121,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.hero-container {
-    background-color: #f1d1ad;
 }
 
 .hero-content {
