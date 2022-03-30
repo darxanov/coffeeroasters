@@ -53,6 +53,7 @@ img {
 /* SITE-HEADER */
 .site-header-bg {
     background-color: #f1d1ad;
+    margin-bottom: 20px;
 }
 
 .site-header-container {
